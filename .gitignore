@@ -1,0 +1,52 @@
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Кэш и временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Кэш Node.js и зависимости
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Компилируемые файлы
+*.exe
+*.dll
+*.out
+*.class
+*.o
+*.a
+
+# Файлы ОС и служебные файлы
+*.bak
+*.old
+*.orig
+*.tmp
+*.lock
+*.pid
+
+# Игнорируем .env файлы с конфиденциальными данными
+.env
+.env.local
+.env.development
+.env.production
+
+# Файлы Git
+.git/
